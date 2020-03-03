@@ -5,7 +5,7 @@ Dim user_name As String
 Dim password As String
 Dim query As String
 Dim rs As DAO.Recordset
-    
+
     ' Get the user name and password.
     user_name = Replace$(txtUserName.Text, "'", "''")
     password = Replace$(txtPassword.Text, "'", "''")
